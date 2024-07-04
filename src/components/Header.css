@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 46rem;
+}
+
+.header-list-item {
+  margin: 0 1rem;
+  list-style-type: none;
+}
+.sign-in-btn {
+  padding: 0.5rem 1rem;
+}
+.sign-in-btn:hover {
+  cursor: pointer;
+}
