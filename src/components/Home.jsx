@@ -1,7 +1,7 @@
 import banner from "../assets/print-man.jpg";
-import "./Hero.css";
+import "./Home.css";
 
-const Hero = () => {
+const Home = () => {
   return (
     <>
       <img className="banner" src={banner} alt="" />
@@ -9,4 +9,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;
