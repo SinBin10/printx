@@ -8,9 +8,15 @@ const Header = () => {
         <img src={logo} alt="logo" />
       </div>
       <ul className="header-list">
-        <li className="header-list-item">About us</li>
-        <li className="header-list-item">Contact</li>
-        <li className="header-list-item">Services</li>
+        <li className="header-list-item">
+          <a href="">About us</a>
+        </li>
+        <li className="header-list-item">
+          <a href="">Contact</a>
+        </li>
+        <li className="header-list-item">
+          <a href="">Services</a>
+        </li>
       </ul>
       <button className="sign-in-btn">Sign in</button>
     </div>
